@@ -171,7 +171,8 @@ footer{
 
 .auto-links{
     justify-content: space-evenly;
-    background-color: #ce7c8d;
+    
+    
 }
 .repeat .p{
     display: flex;
@@ -182,11 +183,16 @@ footer{
 
 @media(max-width: 500px){
 
-.auto-links{
-    justify-content: space-between;
-    align-items: center;
-    width:20%;
-    text-align: justify;
+.logo{
+font-size: 1.6rem;
+padding-left: 0%;
+}
 
+.auto-links{
+    width: 80%;
+    font-size: 1.6rem;
+}
+.projects-title{
+    font-size: 1.6rem;
 }
 }
