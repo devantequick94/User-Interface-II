@@ -169,8 +169,24 @@ footer{
 
 @media(max-width: 800px){
 
+.auto-links{
+    justify-content: space-evenly;
+    background-color: #ce7c8d;
+}
+.repeat .p{
+    display: flex;
+    
+}
+
 }
 
 @media(max-width: 500px){
-    
+
+.auto-links{
+    justify-content: space-between;
+    align-items: center;
+    width:20%;
+    text-align: justify;
+
+}
 }
