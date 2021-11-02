@@ -171,28 +171,45 @@ footer{
 
 .auto-links{
     justify-content: space-evenly;
-    
-    
-}
-.repeat .p{
-    display: flex;
-    
 }
 
 }
 
 @media(max-width: 500px){
 
-.logo{
-font-size: 1.6rem;
-padding-left: 0%;
-}
-
-.auto-links{
-    width: 80%;
-    font-size: 1.6rem;
-}
-.projects-title{
-    font-size: 1.6rem;
-}
-}
+    .logo{
+        width:80%;
+        font-size: 3rem;
+        padding: 0%;
+        
+    }
+    
+    .auto-links{
+        width: 80%;
+        font-size: 1.6rem;
+    }
+    
+    .projects-title{
+        width: 100%;
+        text-align: center;
+    }
+    .myproject-container{
+        
+    }
+    .projects{
+        width: 100%;
+        font-size: 1.0rem;
+        display: flex;
+        text-align: center;
+    }
+    .button{
+        font-size: 1.1rem;
+        padding: 5px 35px;
+        /* border: 1px solid red; */
+        border-radius: 5px;
+        width: 25%;
+    }
+    .repeat h2{
+        font-size: 1.6rem;
+    }
+    }
